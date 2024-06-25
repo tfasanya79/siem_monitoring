@@ -1,9 +1,7 @@
 # siem_monitoring
 siem monitoring scrips
 
-Sure! Here's a `README.md` for the SIEM repository:
 
-```markdown
 # SIEM Monitoring Scripts
 
 This repository hosts various scripts designed for Security Information and Event Management (SIEM) monitoring. These scripts gather and analyze system data, providing essential information for security and performance monitoring.
@@ -29,14 +27,14 @@ This script gathers all necessary data on a PC for SIEM analysis. The data colle
 - System Information: Basic details about the system such as hostname, OS, architecture, and boot time.
 - Network Information: Details about network interfaces, their statuses, and current network connections.
 - Disk Information: Information about disk partitions and their usage.
-- **Memory Information**: Details about virtual and swap memory usage.
-- **Process Information**: Information about currently running processes, including their CPU and memory usage.
+- Memory Information: Details about virtual and swap memory usage.
+- Process Information: Information about currently running processes, including their CPU and memory usage.
 
 The script can either save the collected data to a JSON file or send it to a SIEM endpoint.
 
 #### Usage
 
-1. **Save data to a file**:
+1. Save data to a file:
 
     ```sh
     python3 siem_data.py
@@ -58,7 +56,7 @@ Ensure you have the necessary Python packages installed. You can use the provide
 
 ```sh
 pip install -r requirements.txt
-```
+
 
 ### Packages
 
