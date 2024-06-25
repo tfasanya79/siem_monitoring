@@ -26,9 +26,9 @@ These scripts can save the collected data to a file or send it to a specified SI
 
 This script gathers all necessary data on a PC for SIEM analysis. The data collected includes:
 
-- **System Information**: Basic details about the system such as hostname, OS, architecture, and boot time.
-- **Network Information**: Details about network interfaces, their statuses, and current network connections.
-- **Disk Information**: Information about disk partitions and their usage.
+- System Information: Basic details about the system such as hostname, OS, architecture, and boot time.
+- Network Information: Details about network interfaces, their statuses, and current network connections.
+- Disk Information: Information about disk partitions and their usage.
 - **Memory Information**: Details about virtual and swap memory usage.
 - **Process Information**: Information about currently running processes, including their CPU and memory usage.
 
@@ -106,4 +106,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 Happy Monitoring!
 ```
 
-This `README.md` provides an overview of the repository, instructions on how to use the main script, and steps for setting up the environment and dependencies. It also includes sections for contributing and licensing. Adjust the repository URL and any other details as necessary for your specific use case.
+This `README.md` provides an overview of the repository, instructions on how to use the main script, 
+and steps for setting up the environment and dependencies. It also includes sections for contributing and licensing. Adjust the repository URL and any other details as necessary for your specific use case.
