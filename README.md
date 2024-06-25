@@ -36,25 +36,21 @@ The script can either save the collected data to a JSON file or send it to a SIE
 
 1. Save data to a file:
 
-    ```sh
     python3 siem_data.py
-    ```
 
     This will generate a `siem_data.json` file with the collected data.
 
-2. **Send data to a SIEM endpoint**:
+2. Send data to a SIEM endpoint:
 
     Uncomment the lines in the `main` function related to sending data to a SIEM endpoint, and replace the placeholder URL with the actual endpoint URL. Then run:
 
-    ```sh
     python3 siem_data.py
-    ```
+    
 
 ## Requirements
 
 Ensure you have the necessary Python packages installed. You can use the provided `requirements.txt` to install the dependencies:
 
-```sh
 pip install -r requirements.txt
 
 
@@ -67,30 +63,24 @@ pip install -r requirements.txt
 
 1. Clone the repository:
 
-    ```sh
     git clone https://github.com/yourusername/siem_monitoring.git
     cd siem_monitoring
-    ```
+    
 
 2. Create a virtual environment and activate it:
 
-    ```sh
     python3 -m venv myenv
     source myenv/bin/activate
-    ```
+    
 
 3. Install the required packages:
 
-    ```sh
     pip install -r requirements.txt
-    ```
-
+    
 4. Run the script:
 
-    ```sh
     python3 siem_data.py
-    ```
-
+    
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you have any suggestions or improvements.
@@ -99,10 +89,7 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
-
 Happy Monitoring!
-```
 
 This `README.md` provides an overview of the repository, instructions on how to use the main script, 
 and steps for setting up the environment and dependencies. It also includes sections for contributing and licensing. Adjust the repository URL and any other details as necessary for your specific use case.
